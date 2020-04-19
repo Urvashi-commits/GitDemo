@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 417793,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeregvalidation()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Udemy Home page default login",
+        "description": "",
+        "id": "application-login;udemy-home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 78256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterregvalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on Udemy Landing Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User login into application with \"jin\" and Password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jin",
+                  "offset": 34
+                },
+                {
+                  "val": "1234",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefination.user_login_into_application_with_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Home page must be displayed",
+            "match": {
+              "location": "stepDefination.home_page_must_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Courses displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefination.courses_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 82104,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeregvalidation()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Udemy Home page default login",
+        "description": "",
+        "id": "application-login;udemy-home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 76546,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterregvalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User is on Udemy Landing Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User login into application with \"john\" and Password \"4321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john",
+                  "offset": 34
+                },
+                {
+                  "val": "4321",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefination.user_login_into_application_with_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Home page must be displayed",
+            "match": {
+              "location": "stepDefination.home_page_must_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Courses displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefination.courses_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
